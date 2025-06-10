@@ -42,8 +42,13 @@ Asks whether a follow-up plan is documented for hypertensive patients.
 Prints the percentage of hypertensive patients with documented follow-up plans.
 
 #Usage
-Run the script in a Python environment. Follow prompts to enter:
-Systolic and diastolic readings
-Whether follow-up plans are documented for hypertensive patients
+Run the script in a Python environment:
+
+```bash
+python bpproject/bpproject.py
+```
+
+Follow prompts to enter systolic and diastolic readings and indicate whether
+follow-up plans are documented for hypertensive patients.
 
 
