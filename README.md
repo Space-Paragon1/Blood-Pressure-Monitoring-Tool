@@ -47,3 +47,10 @@ Systolic and diastolic readings
 Whether follow-up plans are documented for hypertensive patients
 
 
+
+## Running Tests
+Run the test suite with:
+
+```bash
+python -m unittest
+```
