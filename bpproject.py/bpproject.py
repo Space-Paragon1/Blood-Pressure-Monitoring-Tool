@@ -1,7 +1,7 @@
 while True:
     try:
         systolic=int(input("Enter your systolic pressure:"))
-        diastolic=int(input(Enter your diastolic pressure:))
+        diastolic=int(input("Enter your diastolic pressure:"))
         if systolic<0 or diastolic<0:
             print("Cannot be negative.Try again!!")
     except ValueError:
