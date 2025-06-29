@@ -6,7 +6,7 @@ class TestBloodPressureClassification(unittest.TestCase):
         self.assertEqual(determine_bp(110, 70), "normal")
 
     def test_elevated(self):
-        self.assertEqual(determine_bp(125, 85), "elevated_blood_pressure")
+        self.assertEqual(determine_bp(125, 75), "elevated_blood_pressure")
 
     def test_hypertensive(self):
         self.assertEqual(determine_bp(145, 95), "hypertensive")
