@@ -10,7 +10,7 @@ def determine_bp(systolic, diastolic):
     """
     if systolic < 120 and diastolic < 80:
         return "normal"
-    elif 120 <= systolic < 130 and diastolic < 80:
+    elif 120 <= systolic < 139 and diastolic < 89:
         return "elevated_blood_pressure"
     elif systolic >= 140 or diastolic >= 90:
         return "hypertensive"
